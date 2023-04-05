@@ -1,0 +1,14 @@
+h1{
+    font-size: 20px;
+    color: black;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+.navegacion a {
+    text-transform: lowercase;
+}
+   
+ 
