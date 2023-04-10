@@ -1,14 +1,18 @@
-h1{
-    font-size: 20px;
-    color: black;
-}
-
-nav a {
-    text-transform: uppercase;
-}
-
-.navegacion a {
-    text-transform: lowercase;
-}
+.nombre-sitio span{
    
+    color: #037bc0;
+}
+
+/**Box Model**/
+
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;
+    padding: 25px; 
+
+
+}
+
+
+
  
