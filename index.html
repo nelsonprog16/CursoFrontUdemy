@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo HTML</title>   
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -14,20 +15,29 @@
     <header>        
     <h1 class="nombre-sitio">Tienda <span>Muebles</span> </h1>
     </header> 
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor"> 
+            <a  href="index.html">Inicio</a>
+            <a  href="nosotros.html">Nosotros</a>
+            <a  href="tienda.html">Tienda</a>
+            <a  href="blog.html">Blog</a>
+            <a  href="galeria.html">Galeria</a>
+            <a  href="contacto.html">contacto</a>
+        </nav>   
+
+    </div>
     
-    <nav class="navegacion"> 
-        <a  href="index.html">Inicio</a>
-        <a  href="nosotros.html">Nosotros</a>
-        <a  href="tienda.html">Tienda</a>
-        <a  href="blog.html">Blog</a>
-        <a  href="galeria.html">Galeria</a>
-        <a  href="contacto.html">contacto</a>
-    </nav>   
+   
+
+    <div class="hero"></div>
+    
+   
 
     <section> 
         <h2>Categoria de productos</h2>
         <div>
-            <img src="img/categoria1.jpg" alt="imagen categoria">
+            <img src="img/categoria1.jpg" alt="imagen categoria"> 
             <a href="#">Oficina</a>
         </div>
 
@@ -41,8 +51,15 @@
             <a href="#">Cocina</a>
         </div>       
     </section>  
-
+ 
     <section class="sobre-nosotros">
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloribus itaque dolore sapiente maxime. Repellat fugit, nisi perferendis qui aspernatur fugiat, omnis nobis officiis quos sit dicta doloribus quam iste!</p>
+        </div>
+    </section>
+
+    <section class="sobre-empresa">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloribus itaque dolore sapiente maxime. Repellat fugit, nisi perferendis qui aspernatur fugiat, omnis nobis officiis quos sit dicta doloribus quam iste!</p>
