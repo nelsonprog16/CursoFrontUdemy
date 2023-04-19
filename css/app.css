@@ -1,13 +1,22 @@
 /**inicio de snipet**/
 html {
   box-sizing: border-box;
+  font-size: 62.5;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {  
+  font-family: 'Raleway', sans-serif;
+}
 /**Fin de Snipet**/
 
 /**Globales**/
+h1, h2,h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -20,6 +29,7 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 
@@ -55,10 +65,28 @@ img {
 }
 
 /*categorias*/
+.categorias h2 {
+  text-align: center;
+}
 
+.categoria a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 20px; 
+}
+
+.categoria a:hover {
+  background-color: #037bc0; 
+  color: #ffffff;
+  border-bottom-right-radius: 10px; 
+}
+ 
 .listado-categorias {
   display: grid;
-  grid-template-columns: repeat(3,1fr)
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+
 
 }
 
