@@ -44,6 +44,12 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/**Utilidades*/
+.text-center{
+  text-align: center;
+}
+
 /*Header y Navegacion*/
   
 .nombre-sitio {
@@ -124,7 +130,30 @@ img {
  color: #ffffff;   
 }
 
-/** Listado de Productos/*
+/** Listado de Productos**/
+
+.contenido-principal {
+  pad: 5rem;
+}
+
+.producto {
+  background-color: #037bc0;
+}
+.texto-producto {
+  text-align: center;
+  color: #ffffff;
+}
+
+.texto-producto h3 {
+  
+}
+.texto-producto .precio {
+  font-size: 2.8rem;
+  font-weight: 900 ;
+}
+.texto-producto a {
+
+}
 
 
 
